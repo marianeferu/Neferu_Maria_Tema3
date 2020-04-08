@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_datepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_marginTop="40dip"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btn_datepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DatePicker"
+        android:layout_marginTop="70dip"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape"
+        android:textColor="@drawable/text"
+        />
+
+    <TextView
+        android:id="@+id/textView_timepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hour:Minute"
+        android:layout_marginTop="120dip"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_timepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TimePicker"
+        android:layout_marginTop="140dip"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape"
+        android:textColor="@drawable/text"
+        />
+
+    <Button
+        android:id="@+id/button_timepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:text="Set Alarm"
+        android:background="@drawable/shape"
+        android:textColor="@drawable/text"/>
+
+
+</RelativeLayout>
